@@ -1,31 +1,27 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 
-namespace SignalR_TARge24.Hubs
+public class UserHub : Hub
 {
-    public class UserHub : Hub
+    public static int TotalViews { get; set; } = 0;
+    public static int TotalUsers { get; set; } = 0;
+
+    public override async Task OnConnectedAsync()
     {
-        public static int TotalViews { get; set; } = 0;
+        TotalUsers++;
+        await Clients.All.SendAsync("updateTotalUsers", TotalUsers);
+        await base.OnConnectedAsync();
+    }
 
-        public static int TotalUsers { get; set; } = 0;
+    public override async Task OnDisconnectedAsync(Exception? exception)
+    {
+        TotalUsers--;
+        await Clients.All.SendAsync("updateTotalUsers", TotalUsers);
+        await base.OnDisconnectedAsync(exception);
+    }
 
-        public override Task OnConnectedAsync()
-        {
-            TotalViews++;
-            Clients.All.SendAsync("updateTotalUsers", TotalUsers).GetAwaiter().GetResult();
-            return base.OnConnectedAsync();
-        }
-
-        public override Task OnDisconnectedAsync(Exception? exception)
-        {
-            TotalUsers--;
-            Clients.All.SendAsync("updateTotalUsers", TotalUsers).GetAwaiter().GetResult();
-            return base.OnDisconnectedAsync(exception);
-        }
-
-        public async Task NewWindowLoaded()
-        {
-            TotalViews++;
-            await Clients.All.SendAsync("updateTotalViews", TotalViews);
-        }
+    public async Task NewWindowLoaded()
+    {
+        TotalViews++;
+        await Clients.All.SendAsync("updateTotalViews", TotalViews);
     }
 }
