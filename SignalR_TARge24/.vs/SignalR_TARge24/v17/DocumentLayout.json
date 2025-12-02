@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|c:\\users\\tauno\\source\\repos\\signalr_targe24\\signalr_targe24\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|solutionrelative:hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|c:\\users\\tauno\\source\\repos\\signalr_targe24\\signalr_targe24\\wwwroot\\js\\userscount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|solutionrelative:wwwroot\\js\\userscount.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|c:\\users\\tauno\\source\\repos\\signalr_targe24\\signalr_targe24\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|c:\\users\\tauno\\source\\repos\\signalr_targe24\\signalr_targe24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D5B7796-4D08-4FBE-9468-E0FED5D9A16A}|SignalR_TARge24.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,58 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "usersCount.js",
-              "DocumentMoniker": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\wwwroot\\js\\usersCount.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\usersCount.js",
-              "ToolTip": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\wwwroot\\js\\usersCount.js",
-              "RelativeToolTip": "wwwroot\\js\\usersCount.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-12-02T08:26:56.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T08:21:23.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:08:19.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserHub.cs",
-              "DocumentMoniker": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\Hubs\\UserHub.cs",
-              "RelativeDocumentMoniker": "Hubs\\UserHub.cs",
-              "ToolTip": "C:\\Users\\tauno\\source\\repos\\SignalR_TARge24\\SignalR_TARge24\\Hubs\\UserHub.cs",
-              "RelativeToolTip": "Hubs\\UserHub.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T08:07:16.577Z",
-              "EditorCaption": ""
             }
           ]
         }

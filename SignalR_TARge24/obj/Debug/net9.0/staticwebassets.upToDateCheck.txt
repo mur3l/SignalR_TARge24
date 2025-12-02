@@ -1,6 +1,12 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\chat.js
+wwwroot\js\signalr.js
+wwwroot\js\signalr.js.map
+wwwroot\js\signalr.min.js
+wwwroot\js\signalr.min.js.map
 wwwroot\js\site.js
+wwwroot\js\usersCount.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -61,10 +67,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\js\signalr.min.js.map
-wwwroot\js\signalr.min.js
-wwwroot\js\signalr.js.map
-wwwroot\js\signalr.js
 wwwroot\lib\microsoft\signalr\dist\cjs\AbortController.js
 wwwroot\lib\microsoft\signalr\dist\cjs\AbortController.js.map
 wwwroot\lib\microsoft\signalr\dist\cjs\browser-index.js
@@ -252,7 +254,6 @@ wwwroot\lib\microsoft\signalr\src\third-party-notices.txt
 wwwroot\lib\microsoft\signalr\src\Utils.ts
 wwwroot\lib\microsoft\signalr\src\WebSocketTransport.ts
 wwwroot\lib\microsoft\signalr\src\XhrHttpClient.ts
-wwwroot\js\usersCount.js
 C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\css\site.css
 C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\favicon.ico
 C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\js\signalr.js
@@ -447,3 +448,4 @@ C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\lib\microsof
 C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\lib\microsoft\signalr\README.md
 C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\lib\microsoft\signalr\src\third-party-notices.txt
 C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\js\usersCount.js
+C:\Users\tauno\source\repos\SignalR_TARge24\SignalR_TARge24\wwwroot\js\chat.js

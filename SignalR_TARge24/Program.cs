@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SignalR_TARge24.Data;
+using SignalR_TARge24.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +35,7 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.MapHub<UserHub>("/hubs/userCount");
+app.MapHub<ChatHub>("/hubs/chat");
 
 app.UseAuthorization();
 
